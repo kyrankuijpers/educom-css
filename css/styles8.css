@@ -1,0 +1,24 @@
+a:link{
+    font-family:'Courier New', Courier, monospace;
+    color: grey;
+}
+
+a:visited{
+    background-color:red;
+    color:orange;
+}
+
+a:hover{
+    background-color: yellow;
+}
+
+a:active{
+    background-color: royalblue;
+}
+
+li:hover{
+    background-color:forestgreen;
+    font-size:small;
+}
+
+li:first-letter{font-size:50px;}
