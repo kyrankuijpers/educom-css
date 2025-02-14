@@ -1,0 +1,38 @@
+.blue-square{
+    width: 80px;
+    height: 80px;
+    color: orange;
+    padding: 100px;
+    margin: 50px;
+    font-size: 14px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#bad-practice-square{
+    font-size: large;
+    color: white;
+}
+
+table{
+    background-color: aquamarine;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.cascading-parent{
+    font-weight: bolder;
+    color: #FFF;
+    margin: 25%;
+    padding: 50px;
+}
+
+.cascading-child{
+    background-color: #000;
+    width: 200px;
+    height: 200px;
+    padding: inherit;
+}
+
