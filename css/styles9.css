@@ -1,0 +1,32 @@
+:root{
+    /*color palette*/
+    --petrol: rgb(17, 106, 95);
+    --anthracite: rgb(63, 62, 62);
+    --brown-leather: rgba(100, 52, 28, 0.714);
+
+    /*text*/
+    --paragraph-textsize: 13px;
+    --main-font: 'calibri';
+
+    /*box model*/
+    --mypadding: 210px;
+}
+
+* {
+    font-family: var(--main-font);
+}
+
+a{
+    font-size: var(--paragraph-textsize);
+}
+
+.music{
+    background-color: var(--petrol);
+    color: var(--anthracite);
+    padding: var(--mypadding);
+}
+
+.jobs{
+    background-color: var(--petrol);
+    color: var(--brown-leather);
+}
