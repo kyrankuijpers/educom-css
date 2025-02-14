@@ -1,0 +1,19 @@
+.blue-square{
+    width: 80px;
+    height: 80px;
+    color: orange;
+    padding: 100px;
+    margin: 50px;
+    font-size: 14px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#bad-practice-square{
+    font-size: large;
+    color: white;
+}
+
+td{
+    border: 1px solid black;
+}
